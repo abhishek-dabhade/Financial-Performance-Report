@@ -27,14 +27,17 @@ The solution connects raw financial data, validates it using SQL, and then visua
 ---
 
 ## 📂 Project Structure  
-├── financial_data.csv # Dataset used for analysis
-├── Financial_Performance_data.sql # SQL queries for validation
-├── Financial Performance dashboard.pbit # Power BI template file
-├── dashboard/ # Power BI Dashboard screenshots
-│ ├── Country_Financial_Overview.png
-│ ├── Product_Segment_Performance.png
-│ └── Final_Dashboard.png
-└── README.md # Project documentation
+
+```plaintext
+├── financial_data.csv                      # Dataset used for analysis
+├── Financial_Performance_data.sql          # SQL queries for validation
+├── Financial Performance dashboard.pbit    # Power BI template file
+├── dashboard/                              # Power BI Dashboard screenshots
+│   ├── Country_Financial_Overview.png
+│   ├── Product_Segment_Performance.png
+│   └── Final_Dashboard.png
+└── README.md                               # Project documentation
+
 
 ---
 
