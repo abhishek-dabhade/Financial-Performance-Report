@@ -1,1 +1,107 @@
-# Financial-Performance-Report
+# 📊 Financial Performance Dashboard  
+
+## 🚀 Overview  
+This project provides a **comprehensive financial performance analysis** using **Power BI, SQL Server, and CSV data**.  
+It highlights **sales, profit, discounts, units, and cost structure** across **countries, products, and customer segments**, ensuring accurate business insights.  
+
+The solution connects raw financial data, validates it using SQL, and then visualizes it through Power BI dashboards.  
+
+---
+
+## ✨ Features & Highlights  
+- 📈 **Sales & Profit Trends** across years (2013 & 2014)  
+- 🌍 **Country-wise Performance** with sales distribution and profit margins  
+- 🏷️ **Discount Effectiveness** analysis on profit margins  
+- 🛒 **Product & Segment Profitability**  
+- 📊 **COGS to Sales %** for efficiency tracking  
+- ✅ **SQL Validation Queries** included for accuracy  
+
+---
+
+## 💡 Impact  
+- Helps identify **top-performing markets & products**  
+- Reveals **drivers of profit margin**  
+- Highlights **discount strategies** that improve profitability  
+- Enables **data-backed decision making** for executives  
+
+---
+
+## 📂 Project Structure  
+├── financial_data.csv # Dataset used for analysis
+├── Financial_Performance_data.sql # SQL queries for validation
+├── Financial Performance dashboard.pbit # Power BI template file
+├── dashboard/ # Power BI Dashboard screenshots
+│ ├── Country_Financial_Overview.png
+│ ├── Product_Segment_Performance.png
+│ └── Final_Dashboard.png
+└── README.md # Project documentation
+
+---
+
+
+---
+
+## 📸 Dashboard Preview  
+
+### 🌍 Country Financial Performance Overview  
+![Country Dashboard](dashboard/Country_Financial_Overview.png)  
+
+### 📦 Product & Segment Performance  
+![Product Dashboard](dashboard/Product_Segment_Performance.png)  
+
+### 🏁 Final Dashboard (Combined View)  
+![Final Dashboard](dashboard/Final_Dashboard.png)  
+
+---
+
+## 🛠 Tools & Technologies  
+- **SQL Server Management Studio (SSMS)** – For data validation queries  
+- **Microsoft Power BI** – For interactive dashboard design  
+- **CSV / Excel** – Data source  
+- **GitHub** – Project version control and documentation  
+
+---
+
+## 🔑 Key Insights  
+- **USA & Canada** lead in sales (~$25M each).  
+- **Germany** has the highest **profit margin %** (~15.66%).  
+- **Government segment** dominates with **$53M sales & $11M profit**.  
+- **Paseo product** contributes the most profit (~$4.8M).  
+- **Low discounts** perform better in maintaining profit margins than high discounts.  
+- Sales grew from **$26M in 2013 → $92M in 2014**, showing **strong growth momentum**.  
+
+---
+
+## 📜 SQL Validation Queries  
+
+```sql
+-- Total Net Sales
+SELECT SUM(Sales) AS Total_Net_Sales 
+FROM financial_data;
+
+-- Total Profit
+SELECT SUM(Profit) AS Total_Profit 
+FROM financial_data;
+
+-- Profit Margin %
+SELECT (SUM(Profit) * 100.0) / SUM(Sales) AS Profit_Margin_Percentage 
+FROM financial_data;
+
+-- Sales by Country
+SELECT Country, SUM(Sales) AS Total_Sales 
+FROM financial_data
+GROUP BY Country
+ORDER BY Total_Sales DESC;
+
+-- Profit Margin by Country
+SELECT Country, (SUM(Profit) * 100.0) / SUM(Sales) AS Profit_Margin_Percentage 
+FROM financial_data
+GROUP BY Country
+ORDER BY Profit_Margin_Percentage DESC;
+
+-- Total Sales by Year
+SELECT Year, SUM(Sales) AS Total_Sales 
+FROM financial_data
+GROUP BY Year
+ORDER BY Year;
+
