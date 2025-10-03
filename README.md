@@ -1,10 +1,21 @@
-# 📊 Financial Performance Dashboard  
+# 📊 Financial Performance Dashboard
 
-## 🚀 Overview  
-This project provides a **comprehensive financial performance analysis** using **Power BI, SQL Server, and CSV data**.  
-It highlights **sales, profit, discounts, units, and cost structure** across **countries, products, and customer segments**, ensuring accurate business insights.  
+## 📌 Project Overview  
+- Built an interactive **Power BI dashboard** to analyze company financial performance.  
+- Dataset: `financial_data.csv` (Sales, Profit, Discounts, Units, Segments, Countries, Products).  
+- SQL Server used for **data validation** with queries (`Financial_Performance_data.sql`).  
+- Focused on analyzing **Sales, Profit, Margins, Discounts, and Units** across dimensions:  
+  - 🌍 Country  
+  - 📦 Product & Segment  
+  - 📆 Year (2013 vs 2014)  
+- Delivered key insights into:  
+  - Top-performing countries and products  
+  - Profit margins across regions and products  
+  - Segment-wise sales & profit contribution  
+  - Discount effectiveness on profit margins  
+- 📈 Final output: Power BI dashboards + SQL validation + supporting documentation.  
 
-The solution connects raw financial data, validates it using SQL, and then visualizes it through Power BI dashboards.  
+---
 
 ---
 
