@@ -17,8 +17,6 @@
 
 ---
 
----
-
 ## ✨ Features & Highlights  
 - 📈 **Sales & Profit Trends** across years (2013 & 2014)  
 - 🌍 **Country-wise Performance** with sales distribution and profit margins  
@@ -34,9 +32,6 @@
 - Reveals **drivers of profit margin**  
 - Highlights **discount strategies** that improve profitability  
 - Enables **data-backed decision making** for executives  
-
----
-
 
 ---
 
