@@ -36,7 +36,7 @@ The solution connects raw financial data, validates it using SQL, and then visua
 │   ├── Country_Financial_Overview.png
 │   ├── Product_Segment_Performance.png
 │   └── Final_Dashboard.png
-└── README.md                               # Project documentation
+└── README.md                               # Project documentation```
 
 
 
