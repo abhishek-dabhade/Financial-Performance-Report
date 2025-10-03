@@ -44,13 +44,10 @@ The solution connects raw financial data, validates it using SQL, and then visua
 ## 📸 Dashboard Preview  
 
 ### 🌍 Country Financial Performance Overview  
-![Country Dashboard](dashboard/Country_Financial_Overview.png)  
+![Country Dashboard](dashboard/Financial_Performance_dashboard_Report_page-0001.jpg)  
 
 ### 📦 Product & Segment Performance  
-![Product Dashboard](dashboard/Product_Segment_Performance.png)  
-
-### 🏁 Final Dashboard (Combined View)  
-![Final Dashboard](dashboard/Final_Dashboard.png)  
+![Product Dashboard](dashboard/Financial_Performance_dashboard_Report_page-0002.jpg)  
 
 ---
 
