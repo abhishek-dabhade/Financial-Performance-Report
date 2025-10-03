@@ -26,28 +26,6 @@ The solution connects raw financial data, validates it using SQL, and then visua
 
 ---
 
-## 📂 Project Structure  
-
-├── financial_data.csv                      # Dataset used for analysis
-├── Financial_Performance_data.sql          # SQL queries for validation
-├── Financial Performance dashboard.pbit    # Power BI template file
-├── dashboard/                              # Power BI Dashboard screenshots
-│   ├── Country_Financial_Overview.png
-│   ├── Product_Segment_Performance.png
-│   └── Final_Dashboard.png
-└── README.md                               # Project documentation
-
-
-
----
-
-## 📸 Dashboard Preview  
-
-### 🌍 Country Financial Performance Overview  
-![Country Dashboard](dashboard/Financial_Performance_dashboard_Report_page-0001.jpg)  
-
-### 📦 Product & Segment Performance  
-![Product Dashboard](dashboard/Financial_Performance_dashboard_Report_page-0002.jpg)  
 
 ---
 
